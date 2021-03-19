@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -13,6 +15,10 @@ export default function Home() {
                     <code className={styles.code}>pages/index.tsx</code>
                 </p>
             </main>
+
+            <Link href="/seloger">
+                <a>Naviguate to /seloger</a>
+            </Link>
 
             <footer className={styles.footer}>
                 <a

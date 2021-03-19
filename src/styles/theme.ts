@@ -1,7 +1,14 @@
-export default {
-    color: {
-        primary: '#252623',
-        secondary: '#DECC00',
-        tertiary: '#636159',
+import { createMuiTheme } from '@material-ui/core';
+
+const theme = createMuiTheme({
+    palette: {
+        primary: {
+            main: '#252623',
+        },
+        secondary: {
+            main: '#DECC00',
+        },
     },
-};
+});
+
+export default theme;
